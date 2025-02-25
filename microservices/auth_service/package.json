@@ -1,0 +1,21 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "Authentication and User Service",
+  "main": "authService.ts",
+  "scripts": {
+    "start": "node authService.ts",
+    "dev": "nodemon authService.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
