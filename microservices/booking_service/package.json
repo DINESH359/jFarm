@@ -1,0 +1,21 @@
+{
+  "name": "booking-service",
+  "version": "1.0.0",
+  "description": "Booking & Dashboard Service",
+  "main": "bookingService.ts",
+  "scripts": {
+    "start": "node bookingService.ts",
+    "dev": "nodemon bookingService.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
